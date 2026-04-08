@@ -22,56 +22,58 @@ a{
 }
 #innerdiv{
     font-size: 20px;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border:2px solid transparent
     
 }
 button{
     background-color: orange;
 }
-/* Centers the entire form on the page */
-#form-outer {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+#innerdiv:hover{
+    border:2px solid white
+    
 }
-
-/* Styles the form box */
-form {
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 400px;
-    background-color: #f9f9f9;
-}
-
-/* Use Flexbox to align Label and Input side-by-side */
-#form-inner {
-    display: flex;
-    justify-content: space-between; /* Pushes label to left, input to right */
-    align-items: center;
-    margin-bottom: 15px; /* Adds space between rows */
-}
-
-/* Gives the labels a fixed width so inputs line up vertically */
-#form-inner label {
-    flex-basis: 100px;
-    font-weight: bold;
-}
-
-
-#form-inner input {
+.secondnav{
+    background-color:rgb(49, 47, 47);
+    height: 35px;
+    display:flex;
     flex-grow: 1;
-    padding: 5px;
-}
+    align-items:center;
+    justify-content: space-between;
 
-#form-button {
-    width: 100%;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    cursor: pointer;
 }
+.innerdiv2{
+   font-size: 20px;
+    /* border-radius: 10%; */
+    border:2px solid transparent;
+    color:white;
+}
+.innerdiv2:hover{
+    border:2px solid white
+}
+.greenline{
+    background-color: rgb(79, 233, 79);
+    border:3px solid transparent;
+}
+.thirdnav{
+    background-color:white;
+    height: 100px;
+    display:flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content: space-between;
+    color:black;
+    border:2px solid gray
 
-button:hover {
-    background-color: #333;
+}
+.thirdinnerdiv nav a{
+    font-size: 15px;
+    /* border-radius: 10%; */
+    border:4px solid transparent;
+    color:black;
+
+}
+.thirdinnerdiv nav a:hover{
+    border:2px solid grey;
+    
 }
