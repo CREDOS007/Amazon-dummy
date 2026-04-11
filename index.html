@@ -16,39 +16,44 @@
         <div id="container">
             <div id="innerdiv">
                 <nav>
-                    <img src="Amazon logo2.png" alt="Amazon logo" height="100px" width>
+                    <a href="index.html"><img src="amazon-logo.jpg" alt="Amazon logo"></a>
                 </nav>
             </div>
             <div id="innerdiv">
-                <nav><a href="location.html">location</a></nav>
+                <nav class="location">
+                    <i class="fa-solid fa-location-dot" style="color: rgb(255, 212, 59);"></i>
+                    <a href="location.html">India</a>
+                </nav>
             </div>
-            <div id="innerdiv">
-                <nav>
+            <div id="innerdivsearch">
+                <nav class="searchentire">
 
 
-                    <select name="" id="search" required>
-                        <option value="" disabled selected>--All--</option>
+                    <select name="" id="search-select" required>
+                        <option value="" disabled selected>All</option>
                         <option value="furnitutre">furnitutre</option>
                         <option value="electronincs">electronics</option>
                         <option value="textiles">clothes</option>
                         <option value="grocery">grocery</option>
                     </select>
-                    <label for="search"></label>
-                    <input id="search" type="text" placeholder="search">
+                    <label for="searchlabel" class="label"></label>
+                    <input id="searchlabel" type="text" placeholder="search">
                     <button type="submit">enter</button>
                 </nav>
             </div>
             <div id="innerdiv">
-                <nav>
+                <nav id="language">
                     
+
+                    <i class="fa-solid fa-flag-usa" style="color: rgb(232, 96, 96);"></i>
                     <select name="" id="language" required>
-                        <option value="" disabled selected>--choose--</option>
+                        <option value="" disabled selected>language</option>
                         <option value="English">English</option>
                         <option value="french">french</option>
                         <option value="German">German</option>
                         <option value="italian">italian</option>
                     </select>
-                    
+
                 </nav>
             </div>
 
@@ -66,7 +71,8 @@
         </div>
         <div class="secondnav">
             <div class="innerdiv2">
-                <nav><a href="index.html">All</a></nav>
+                <nav>
+                    <i class="fa-solid fa-bars"></i><a href="index.html">All</a></nav>
             </div>
             <div class="innerdiv2">
                 <nav><a href="index.html">Fresh</a></nav>
@@ -90,11 +96,7 @@
             </div>
 
 
-        </div>
-        <div class="greenline">
-
-        </div>
-
+        </div>    
         <div class="thirdnav">
 
             <div class="thirdinnerdiv">
@@ -138,6 +140,9 @@
 
     </header>
     <main>
+        <div class="Hero1">
+
+        </div>
 
     </main>
     <footer>
